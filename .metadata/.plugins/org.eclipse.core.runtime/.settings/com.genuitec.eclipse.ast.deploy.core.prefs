@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+myeclipseTomcatServer.mj-basewebapp.IEARProjectName=
+myeclipseTomcatServer.mj-basewebapp.altContextRoot=
+myeclipseTomcatServer.mj-basewebapp.contextRoot=/webapp
+myeclipseTomcatServer.mj-basewebapp.deployIsOverProject=false
+myeclipseTomcatServer.mj-basewebapp.deploymentPath=E\:\\life\\GitHub\\mj\\.metadata\\.me_tcat\\webapps\\webapp
+myeclipseTomcatServer.mj-basewebapp.isDeployed=true
+myeclipseTomcatServer.mj-basewebapp.isExploded=true
+myeclipseTomcatServer.mj-basewebapp.isUptoDate=true
+myeclipseTomcatServer.mj-basewebapp.noFileCopy=false
+myeclipseTomcatServer.mj-basewebapp.shouldBackup=false
+myeclipseTomcatServer.mj-basewebapp.shouldOverwrite=false
+myeclipseTomcatServer.mj-basewebapp.type=WebDeployment

@@ -1,0 +1,10 @@
+INDEX VERSION 1.122+E:\life\GitHub\mj\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+87863076.index
+262137774.index
+3367981393.index
+1220922073.index
+1220922073.index
+443183598.index
+1938621428.index
+802798604.index
+2673424484.index

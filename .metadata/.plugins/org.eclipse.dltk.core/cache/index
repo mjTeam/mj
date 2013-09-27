@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/application.js" timestamp="1379253838929" lastAccessTime="1380286351920"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/bootstrap.js" timestamp="1379175174215" lastAccessTime="1380286352211"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/bootstrap.min.js" timestamp="1379253838942" lastAccessTime="1380286352345"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/h.js" timestamp="1379253577479" lastAccessTime="1380286352474"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/holder.js" timestamp="1379253577482" lastAccessTime="1380286352593"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/html5shiv.js" timestamp="1379220474014" lastAccessTime="1380286352755"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/jquery.min.js" timestamp="1379178095015" lastAccessTime="1380286353015"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/jquery.scrollUp.min.js" timestamp="1379253577484" lastAccessTime="1380286353201"/>
+  <entries path="E:/life/GitHub/mj/mj-basewebapp/WebRoot/js/jquery.unveil.min.js" timestamp="1379253577477" lastAccessTime="1380286353450"/>
+</cache:CacheIndex>
