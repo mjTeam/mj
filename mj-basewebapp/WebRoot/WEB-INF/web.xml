@@ -40,7 +40,7 @@
 
   <servlet-mapping>
     <servlet-name>ActionExecute</servlet-name>
-    <url-pattern>/action.go</url-pattern>
+    <url-pattern>/mj.action</url-pattern>
   </servlet-mapping>
 	
 	
