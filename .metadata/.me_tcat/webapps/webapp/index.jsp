@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*,mj.core.db.test.TestC3p0" pageEncoding="utf-8"%>
+<%@ page language="java" import="java.util.*,mj.framework.db.TestC3p0" pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
