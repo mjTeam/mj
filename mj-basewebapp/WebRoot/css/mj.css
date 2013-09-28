@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+table.table th{
+	color:#999999;
+}
+.table-container{
+	border:1px solid rgb(221, 221, 221);
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	position: relative;
+}
+
+.table-title{
+	margin-bottom:15px;
+	color: #999999;
+	font-size: 14px;
+	font-weight:bold;
+	font-family: ff-tisa-web-pro-1, ff-tisa-web-pro-2, 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Sans GB W3', 'WenQuanYi Micro Hei', sans-serif;
+}
