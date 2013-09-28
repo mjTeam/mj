@@ -6,12 +6,21 @@
     <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
     <meta http-equiv="description" content="this is my page">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    
+    <!-- 兼容IE与chrome -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
   </head>
   
   <body>
-    This is my 用户管理 HTML page. <br>
+    <div class="col-*">
+    	<form action="mj.action?action=adduser" method="post">
+    		用户名：<input name="USER_ID" type="text" class="input-block-level" placeholder="User ID">
+        	密码：<input name="USER_PWD" type="text" class="input-block-level" placeholder="Password">
+        	昵称：<input name="USER_NICKNAME" type="text" class="input-block-level" placeholder="昵称">
+        	身份证号：<input name="ID_CARD_NO" type="text" class="input-block-level" placeholder="身份证号">
+        	<button class="btn btn-large btn-primary" type="submit">登录</button>&nbsp;&nbsp;
+    	</form>
+    </div>
   </body>
 </html>
