@@ -1,18 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>页面管理</title>
-	
-	<base href="{$BASE_PATH}">
-    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-    <meta http-equiv="description" content="this is my page">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    
-    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+<head>
+<title>页面管理</title>
 
-  </head>
-  
-  <body>
-    This is my HTML page. <br>
-  </body>
+<base href="{$BASE_PATH}">
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link href="css/mj.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-switch.css" rel="stylesheet">
+<link href="css/docs.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<header style="margin-top:30px;">
+		<div>
+			<ol class="breadcrumb">
+			  <li><a href="#">系统开发</a></li>
+			  <li><a href="#">页面管理</a></li>
+			  <li class="active">新增页面</li>
+			</ol>
+		</div>
+	</header>
+	<div class="bs-callout bs-callout-warning">
+		<h4>自动生成页面说明</h4>
+		<p>如果您正确的设置你项目路径，在新增页面时系统会自动在对应目录下生成页面初始并初始化。</p>
+		<p>你的项目路径：<span class="label label-info">未设置</span> <a href="">设置项目路径</a></p>
+	</div>
+	<div class="table-container">
+		
+		<div class="table-title">
+			<h4><span class="label label-info">新增页面</span></h4>
+			<hr>
+		</div>
+		
+		<form class="form-horizontal" role="form">
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">
+		    	页面Id
+		    </label>
+		    <div class="col-sm-7">
+		      <input type="email" class="form-control" id="inputEmail3" placeholder="页面Id">
+		      <p class="help-block">页面主键，它必须唯一的</p>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-2 control-label">
+		    	页面路径
+		    </label>
+		    <div class="col-sm-7">
+		      <input type="password" class="form-control" id="inputPassword3" placeholder="页面路径">
+		      <p class="help-block">相对项目名称的路径，如：page/sys/login.htm。页面路径也是唯一的</p>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-2 control-label">
+		    	页面名称
+		    </label>
+		    <div class="col-sm-7">
+		      <input type="password" class="form-control" id="inputPassword3" placeholder="页面名称">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		  	<label for="inputPassword3" class="col-sm-2 control-label">
+		    	是否模板页面
+		    </label>
+		    <div class="col-sm-7">
+		        <div class="make-switch switch-small" data-on-label="是" data-off-label="否">
+                    <input type="checkbox" checked>
+                </div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		  	<label for="inputPassword3" class="col-sm-2 control-label">
+		    	是否验证登录
+		    </label>
+		    <div class="col-sm-7">
+		         <div class="make-switch switch-small" data-on-label="是" data-off-label="否">
+                    <input type="checkbox" checked>
+                </div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		  	<label for="inputPassword3" class="col-sm-2 control-label">
+		    	是否验证权限
+		    </label>
+		    <div class="col-sm-7">
+		         <div class="make-switch switch-small" data-on-label="是" data-off-label="否">
+                    <input type="checkbox" checked>
+                </div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <div style="text-align:center">
+		      <hr>
+		      <button type="submit" class="btn btn-primary"> 保存 </button>
+		      &nbsp;&nbsp;
+		      <button type="button" class="btn btn-default"> 重置 </button>
+		      &nbsp;&nbsp;
+		      <button type="button" class="btn btn-default"> 取消 </button>
+		    </div>
+		  </div>
+		</form>
+	</div>
+	
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-switch.min.js"></script>
+	<script>
+
+	</script>
+</body>
 </html>
